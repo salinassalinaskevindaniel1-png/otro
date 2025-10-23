@@ -1,0 +1,80 @@
+body {
+        font-family: Arial, sans-serif;
+        background: #54546b;
+        margin: 16px;
+      }
+      form {
+        max-width: 720px;
+        margin: auto;
+        background: #ba1c1c;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+      }
+      h1 {
+        font-size: 1.1rem;
+        margin: 0 0 12px;
+      }
+      .g {
+        margin: 5% 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+      }
+      input,
+      select {
+        width: 90%;
+        padding: 8px;
+        border: 1px solid #cfcfd4;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      .acciones {
+        margin-top: 12px;
+      }
+      button {
+        padding: 9px 12px;
+        border: 1px solid #0b6bcb;
+        background: #1177dd;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button + button {
+        margin-left: 5%;
+        background: #eef3f9;
+        color: #910f29;
+        border-color: #a7c7ef;
+      }
+      body{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03ck2XcV9W8nk-eA4ph8pK1ZRGl3rNU0ZyUqJDq3MAmjF7D0VVIsoc3CkbGOGhEBjIV8&usqp=CAU');
+      }
+      @media (max-width: 768px) {
+  body {
+    margin: 8px;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  input,
+  select {
+    font-size: 0.95rem;
+    padding: 6px;
+  }
+
+  button {
+    width: 60%;
+    margin-bottom: 8px;
+  }
+
+  button + button {
+    margin-left: 0;
+  }
+}
